@@ -1,4 +1,4 @@
-# Multi-Container Monitoring Application
+<img width="1920" height="1020" alt="docker-ps" src="https://github.com/user-attachments/assets/2224d993-862c-4426-9016-4a28093b45c4" /># Multi-Container Monitoring Application
 
 ## Overview
 
@@ -19,7 +19,7 @@ The primary goal of this project is to understand containerization, networking, 
 
 ## Architecture
 
-```text
+```
 Browser
    |
    v
@@ -51,7 +51,7 @@ Docker Volume
 
 ## Project Structure
 
-```text
+```
 multi-container-monitoring-app/
 │
 ├── backend/
@@ -97,7 +97,7 @@ Built custom images for:
 
 Created and managed containers using:
 
-```bash
+```
 docker run
 docker ps
 docker logs
@@ -111,7 +111,7 @@ Used Docker Compose to automatically create a custom bridge network that allows 
 
 Example:
 
-```text
+```
 backend → mysql
 ```
 
@@ -121,10 +121,10 @@ instead of using IP addresses.
 
 Implemented persistent storage for MySQL:
 
-```yaml
+
 volumes:
   - mysql-data:/var/lib/mysql
-```
+
 
 This ensures database data survives container removal and recreation.
 
@@ -132,9 +132,9 @@ This ensures database data survives container removal and recreation.
 
 Managed the complete application stack using a single command:
 
-```bash
+
 docker-compose up -d
-```
+
 
 ---
 
@@ -251,18 +251,7 @@ docker-compose up -d --build
 
 ## Screenshots
 
-### Frontend UI
-
-Add screenshot here:
-
-
-screenshots/frontend.png
-
-
 ### Running Containers
-
-Add screenshot here:
-
 
 screenshots/docker-ps.png
 
@@ -272,7 +261,7 @@ screenshots/docker-ps.png
 Add screenshot here:
 
 
-screenshots/network-inspect.png
+screenshots/docker-network.png
 
 
 ### Backend API Response
@@ -280,7 +269,7 @@ screenshots/network-inspect.png
 Add screenshot here:
 
 
-screenshots/api-response.png
+screenshots/backen-api.png
 
 
 ---
