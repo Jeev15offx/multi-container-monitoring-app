@@ -1,4 +1,4 @@
-<img width="1920" height="1020" alt="docker-ps" src="https://github.com/user-attachments/assets/2224d993-862c-4426-9016-4a28093b45c4" /># Multi-Container Monitoring Application
+# Multi-Container Monitoring Application
 
 ## Overview
 
